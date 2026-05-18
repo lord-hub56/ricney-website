@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" role="img" aria-labelledby="title desc">
+  <title id="title">Plant oils</title>
+  <desc id="desc">Bottles of coconut, palm, palm kernel, and moringa oils.</desc>
+  <rect width="900" height="650" fill="#eef0e5"/>
+  <path d="M0 448c145-70 262-55 380-15 173 58 321 45 520-32v249H0Z" fill="#d6a037" opacity=".28"/>
+  <path d="M150 128h110v52c0 18-15 33-33 33h-44c-18 0-33-15-33-33Z" fill="#315b3f"/>
+  <rect x="125" y="198" width="160" height="315" rx="54" fill="#f7fbef" stroke="#315b3f" stroke-width="16"/>
+  <rect x="154" y="292" width="102" height="112" rx="18" fill="#fbefc2"/>
+  <path d="M185 332c34-44 60-18 69-83 29 60 0 96-69 83Z" fill="#54865c"/>
+  <path d="M402 96h118v70c0 18-15 33-33 33h-52c-18 0-33-15-33-33Z" fill="#a35135"/>
+  <rect x="365" y="183" width="192" height="350" rx="62" fill="#fff8dd" stroke="#a35135" stroke-width="16"/>
+  <rect x="399" y="289" width="124" height="126" rx="20" fill="#f0a83f"/>
+  <circle cx="461" cy="352" r="36" fill="#c56730"/>
+  <path d="M637 150h108v58c0 18-15 33-33 33h-42c-18 0-33-15-33-33Z" fill="#2f6f73"/>
+  <rect x="608" y="226" width="166" height="287" rx="54" fill="#f4fbfa" stroke="#2f6f73" stroke-width="16"/>
+  <rect x="638" y="320" width="106" height="96" rx="18" fill="#d8e9bc"/>
+  <path d="M671 354c28-38 63-22 73-73 20 55-18 82-73 73Z" fill="#315b3f"/>
+  <ellipse cx="451" cy="538" rx="360" ry="42" fill="#17211b" opacity=".12"/>
+</svg>

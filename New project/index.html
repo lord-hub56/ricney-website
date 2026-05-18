@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ricney Trading | Global Export and Import Supply</title>
+  <meta name="description" content="Ricney Trading exports agricultural materials and imports construction, solar, and energy products. Contact us to place supply orders.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.pexels.com">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html#home" aria-label="Ricney Trading home">
+      <span class="brand-mark">RT</span>
+      <span>Ricney Trading</span>
+    </a>
+    <nav class="main-nav" aria-label="Primary navigation">
+      <a href="index.html#exports">Exports</a>
+      <a href="index.html#imports">Imports</a>
+      <a href="index.html#orders">Orders</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-media" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Global trade, supply, and distribution</p>
+        <h1>Ricney Trading</h1>
+        <p class="hero-copy">Exporting premium agricultural materials and importing reliable construction, solar, and energy products for business buyers.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#orders">Place an order inquiry</a>
+          <a class="button secondary" href="contact.html">Contact us</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section intro" aria-labelledby="about-title">
+      <div>
+        <p class="eyebrow">What we do</p>
+        <h2 id="about-title">A trading partner across export and import markets</h2>
+      </div>
+      <p>Ricney Trading connects buyers with agricultural raw materials for cosmetics, pharmaceuticals, and food processing, while also supplying construction finishing materials and practical solar energy products.</p>
+    </section>
+
+    <section class="section product-section" id="exports" aria-labelledby="exports-title">
+      <div class="section-heading">
+        <p class="eyebrow">Export sector</p>
+        <h2 id="exports-title">Agricultural materials</h2>
+        <p>Natural oils, butters, and honey supplied for cosmetic use, pharmaceutical applications, and food processing.</p>
+      </div>
+      <div class="product-grid">
+        <article class="product-card">
+          <img src="https://images.pexels.com/photos/7038144/pexels-photo-7038144.jpeg?auto=compress&cs=tinysrgb&w=900&h=650&fit=crop" alt="Natural skincare cream representing shea butter, cocoa butter, and mango butter ingredients">
+          <h3>Natural Butters</h3>
+          <p>Shea butter, cocoa butter, and mango butter for formulation and processing needs.</p>
+        </article>
+        <article class="product-card">
+          <img class="product-image product-image-oil" src="assets/plant-oil.jpg" alt="Clear bottled plant oil product">
+          <h3>Plant Oils</h3>
+          <p>Coconut oil, palm oil, palm kernel oil, and moringa oil for bulk supply.</p>
+        </article>
+        <article class="product-card">
+          <img class="product-image product-image-honey" src="assets/honey.jpg" alt="Honey jar with honey dipper">
+          <h3>Honey</h3>
+          <p>Honey supplied for food processing, wellness, cosmetic, and commercial use.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section product-section import-band" id="imports" aria-labelledby="imports-title">
+      <div class="section-heading">
+        <p class="eyebrow">Import sector</p>
+        <h2 id="imports-title">Construction, solar, and energy products</h2>
+        <p>Imported materials and energy products for projects, suppliers, retailers, and contractors.</p>
+      </div>
+      <div class="product-grid">
+        <article class="product-card">
+          <img src="https://images.pexels.com/photos/10284048/pexels-photo-10284048.jpeg?auto=compress&cs=tinysrgb&w=900&h=650&fit=crop" alt="Shelves of construction and finishing materials for supply">
+          <h3>Construction Materials</h3>
+          <p>Supply and distribution of finishing products and related construction materials.</p>
+        </article>
+        <article class="product-card">
+          <img src="https://images.pexels.com/photos/8134815/pexels-photo-8134815.jpeg?auto=compress&cs=tinysrgb&w=900&h=650&fit=crop" alt="Modern sanitary ware, bathroom sink, mirror, and fittings">
+          <h3>Sanitary Ware</h3>
+          <p>Sanitary ware, bathroom fittings, and project-ready bathroom products.</p>
+        </article>
+        <article class="product-card">
+          <img src="https://images.pexels.com/photos/33751638/pexels-photo-33751638.jpeg?auto=compress&cs=tinysrgb&w=900&h=650&fit=crop" alt="Technician installing solar inverter and battery storage system">
+          <h3>Solar and Energy</h3>
+          <p>Solar panels, inverters, batteries, and lighting systems for homes and businesses.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section order-section" id="orders" aria-labelledby="orders-title">
+      <div class="order-copy">
+        <p class="eyebrow">Order inquiries</p>
+        <h2 id="orders-title">Request a quote or place an order by email</h2>
+        <p>Select your product area, add quantity and delivery details, then open your email app with a ready-to-send order inquiry to Ricney Trading.</p>
+      </div>
+      <form class="order-form" id="orderForm">
+        <label>
+          Full name
+          <input type="text" id="customerName" name="customerName" autocomplete="name" required>
+        </label>
+        <label>
+          Phone number
+          <input type="tel" id="customerPhone" name="customerPhone" autocomplete="tel" required>
+        </label>
+        <label>
+          Product category
+          <select id="productCategory" name="productCategory" required>
+            <option value="">Select a category</option>
+            <option>Agricultural exports</option>
+            <option>Construction materials</option>
+            <option>Solar and energy products</option>
+          </select>
+        </label>
+        <label>
+          Product details
+          <textarea id="productDetails" name="productDetails" rows="4" placeholder="Example: shea butter, palm kernel oil, solar panels, bathroom fittings..." required></textarea>
+        </label>
+        <label>
+          Quantity and delivery location
+          <textarea id="deliveryDetails" name="deliveryDetails" rows="3" placeholder="Include quantity, destination, and preferred timeline." required></textarea>
+        </label>
+        <button class="button primary form-button" type="submit">Open email to order</button>
+        <p class="form-note">Gmail will open with the order details filled in and addressed to Ricney Trading for review before sending.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <h2>Ricney Trading</h2>
+      <p>Export, import, supply, and distribution for agricultural materials, construction products, and solar energy systems.</p>
+    </div>
+    <address class="footer-contact">
+      <a href="mailto:ricneyglobaltrade@gmail.com">ricneyglobaltrade@gmail.com</a>
+      <a href="tel:+233246967291">+233 246 967 291</a>
+    </address>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

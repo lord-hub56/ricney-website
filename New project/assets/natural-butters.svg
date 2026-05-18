@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" role="img" aria-labelledby="title desc">
+  <title id="title">Natural cosmetic butters</title>
+  <desc id="desc">Bowls of shea, cocoa, and mango butter with leaves.</desc>
+  <rect width="900" height="650" fill="#f5efe1"/>
+  <rect y="440" width="900" height="210" fill="#d8c198"/>
+  <circle cx="190" cy="150" r="95" fill="#7d4d32" opacity=".14"/>
+  <circle cx="720" cy="120" r="130" fill="#315b3f" opacity=".12"/>
+  <ellipse cx="450" cy="430" rx="310" ry="95" fill="#8c5b3d" opacity=".16"/>
+  <ellipse cx="280" cy="365" rx="160" ry="88" fill="#865f43"/>
+  <ellipse cx="280" cy="342" rx="160" ry="88" fill="#b4815a"/>
+  <ellipse cx="280" cy="325" rx="118" ry="52" fill="#f3d890"/>
+  <path d="M205 322c42-40 122-38 162 2-29 27-127 29-162-2Z" fill="#fff3bd"/>
+  <ellipse cx="470" cy="380" rx="170" ry="92" fill="#65402c"/>
+  <ellipse cx="470" cy="356" rx="170" ry="92" fill="#8b5a3e"/>
+  <ellipse cx="470" cy="340" rx="125" ry="54" fill="#d8a767"/>
+  <path d="M390 343c31-39 123-42 165-3-36 28-124 31-165 3Z" fill="#edc27d"/>
+  <ellipse cx="650" cy="365" rx="145" ry="84" fill="#9b6a3a"/>
+  <ellipse cx="650" cy="344" rx="145" ry="84" fill="#c89149"/>
+  <ellipse cx="650" cy="328" rx="106" ry="48" fill="#ffc46c"/>
+  <path d="M585 329c24-32 101-36 132-2-32 23-98 24-132 2Z" fill="#ffd48a"/>
+  <path d="M152 235c80-54 122 0 159-74 23 85-36 131-159 74Z" fill="#315b3f"/>
+  <path d="M676 242c91-29 118 36 175-25-3 89-75 116-175 25Z" fill="#4e7f55"/>
+  <path d="M130 242c63-2 112-20 179-76M678 243c62-3 118-10 171-28" stroke="#e9f2dd" stroke-width="9" stroke-linecap="round"/>
+</svg>

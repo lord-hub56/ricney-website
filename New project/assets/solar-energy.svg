@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" role="img" aria-labelledby="title desc">
+  <title id="title">Solar and energy products</title>
+  <desc id="desc">Solar panels, inverter, battery, and energy lighting.</desc>
+  <rect width="900" height="650" fill="#f6f0d8"/>
+  <circle cx="735" cy="118" r="70" fill="#d6a037"/>
+  <rect y="430" width="900" height="220" fill="#b8c9b5"/>
+  <g transform="translate(84 176)">
+    <path d="M0 236 414 160 510 316 88 404Z" fill="#173b4c"/>
+    <path d="M38 247 404 181 474 298 104 374Z" fill="#2f6f73"/>
+    <path d="M105 235 170 363M178 221l66 128M252 207l68 125M326 194l70 121M70 286l421-78M92 335l424-82" stroke="#e5f4f2" stroke-width="7" opacity=".75"/>
+    <path d="M295 319v96" stroke="#5d655f" stroke-width="16"/>
+  </g>
+  <g transform="translate(615 290)">
+    <rect x="0" y="0" width="128" height="178" rx="20" fill="#ffffff" stroke="#315b3f" stroke-width="12"/>
+    <circle cx="64" cy="56" r="24" fill="#d6a037"/>
+    <path d="M36 112h56" stroke="#315b3f" stroke-width="12" stroke-linecap="round"/>
+    <path d="M64 146v58" stroke="#5d655f" stroke-width="14" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(740 348)">
+    <rect x="0" y="0" width="88" height="126" rx="10" fill="#17211b"/>
+    <rect x="18" y="-14" width="52" height="18" rx="6" fill="#17211b"/>
+    <rect x="18" y="28" width="52" height="54" rx="8" fill="#d6a037"/>
+  </g>
+  <path d="M102 540c144 42 527 45 690-5 42 43-59 80-301 89-239 9-422-26-389-84Z" fill="#17211b" opacity=".12"/>
+</svg>
