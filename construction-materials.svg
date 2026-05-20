@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" role="img" aria-labelledby="title desc">
+  <title id="title">Construction materials</title>
+  <desc id="desc">Tiles, cement bags, and finishing boards.</desc>
+  <rect width="900" height="650" fill="#eef0e5"/>
+  <rect y="410" width="900" height="240" fill="#c7cfc1"/>
+  <g transform="translate(90 138)">
+    <rect x="0" y="92" width="250" height="300" rx="12" fill="#d8d6cd" stroke="#777a73" stroke-width="10"/>
+    <path d="M0 192h250M0 292h250M83 92v300M166 92v300" stroke="#f7f4ea" stroke-width="8"/>
+  </g>
+  <g transform="translate(392 185)">
+    <path d="M0 90h170l42 250H38Z" fill="#caa66f" stroke="#7a6440" stroke-width="10"/>
+    <path d="M32 90h106l20 76H18Z" fill="#e8cf9d"/>
+    <text x="86" y="224" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700" fill="#7a6440">CEMENT</text>
+  </g>
+  <g transform="translate(610 120)">
+    <rect x="0" y="50" width="170" height="320" rx="10" fill="#a35135"/>
+    <rect x="28" y="18" width="170" height="320" rx="10" fill="#d6a037"/>
+    <rect x="56" y="0" width="170" height="320" rx="10" fill="#315b3f"/>
+    <path d="M86 42h110M86 92h110M86 142h110M86 192h110M86 242h110" stroke="#f5efe1" stroke-width="10" opacity=".75"/>
+  </g>
+</svg>

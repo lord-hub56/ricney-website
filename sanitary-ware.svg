@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" role="img" aria-labelledby="title desc">
+  <title id="title">Sanitary ware and bathroom fittings</title>
+  <desc id="desc">Sink, faucet, shower head, and bathroom fittings.</desc>
+  <rect width="900" height="650" fill="#eaf5f6"/>
+  <rect y="395" width="900" height="255" fill="#cbdfe1"/>
+  <path d="M160 262h380c-12 98-68 161-190 161S172 360 160 262Z" fill="#ffffff" stroke="#2f6f73" stroke-width="14"/>
+  <ellipse cx="350" cy="262" rx="190" ry="54" fill="#f7ffff" stroke="#2f6f73" stroke-width="14"/>
+  <ellipse cx="350" cy="275" rx="68" ry="20" fill="#bed6d8"/>
+  <path d="M334 210v-56c0-58 94-58 94 0v24" fill="none" stroke="#5d655f" stroke-width="20" stroke-linecap="round"/>
+  <path d="M428 178h92" stroke="#5d655f" stroke-width="20" stroke-linecap="round"/>
+  <path d="M490 216c18 32 34 62 34 86" stroke="#2f6f73" stroke-width="12" stroke-linecap="round"/>
+  <g transform="translate(632 118)">
+    <path d="M80 0v138" stroke="#5d655f" stroke-width="18" stroke-linecap="round"/>
+    <path d="M20 140h120" stroke="#5d655f" stroke-width="18" stroke-linecap="round"/>
+    <path d="M34 154c16 35 76 35 92 0" fill="#ffffff" stroke="#2f6f73" stroke-width="12"/>
+    <path d="M32 196v74M64 206v78M96 206v78M128 196v74" stroke="#2f6f73" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <rect x="214" y="416" width="272" height="92" rx="8" fill="#f7ffff" stroke="#2f6f73" stroke-width="12"/>
+</svg>

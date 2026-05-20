@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Ricney Trading export and import products</title>
+  <desc id="desc">Agricultural materials, construction supplies, and solar energy products arranged for global trading.</desc>
+  <rect width="1800" height="1100" fill="#315b3f"/>
+  <path d="M0 730c248-115 448-136 650-81 230 62 382 157 641 83 158-45 313-139 509-153v521H0Z" fill="#d6a037"/>
+  <path d="M0 776c294-99 503-70 736 26 251 104 537 72 1064-107v405H0Z" fill="#a35135" opacity=".82"/>
+  <circle cx="1422" cy="166" r="114" fill="#f0c35b"/>
+  <g transform="translate(980 215)">
+    <path d="M0 280 520 188 640 390 108 500Z" fill="#173b4c"/>
+    <path d="M54 296 506 218 594 370 128 466Z" fill="#2f6f73"/>
+    <path d="M140 281 216 452M231 264l77 168M324 248l81 165M417 232l84 164M92 344l525-96M121 408l530-102" stroke="#e5f4f2" stroke-width="10" opacity=".7"/>
+    <path d="M380 418v170" stroke="#465447" stroke-width="28"/>
+  </g>
+  <g transform="translate(260 250)">
+    <ellipse cx="235" cy="350" rx="260" ry="82" fill="#17211b" opacity=".18"/>
+    <rect x="70" y="45" width="120" height="310" rx="44" fill="#fff8dd" stroke="#8b5a3e" stroke-width="18"/>
+    <rect x="96" y="148" width="70" height="95" rx="14" fill="#f0a83f"/>
+    <rect x="230" y="15" width="150" height="340" rx="48" fill="#f7fbef" stroke="#315b3f" stroke-width="18"/>
+    <rect x="260" y="132" width="90" height="95" rx="14" fill="#fbefc2"/>
+    <ellipse cx="488" cy="260" rx="140" ry="74" fill="#b4815a"/>
+    <ellipse cx="488" cy="238" rx="100" ry="44" fill="#f7d98b"/>
+    <path d="M424 239c32-32 95-32 128 1-34 22-92 23-128-1Z" fill="#fff3bd"/>
+    <path d="M115 20c73-43 112 7 150-61 17 78-39 119-150 61Z" fill="#4e7f55"/>
+    <path d="M118 22c52-1 102-15 147-62" stroke="#e9f2dd" stroke-width="9" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(1080 680)">
+    <rect x="0" y="52" width="160" height="220" rx="14" fill="#d8d6cd" stroke="#777a73" stroke-width="11"/>
+    <path d="M0 126h160M0 200h160M54 52v220M108 52v220" stroke="#f7f4ea" stroke-width="8"/>
+    <path d="M218 60h140l36 212H244Z" fill="#caa66f" stroke="#7a6440" stroke-width="10"/>
+    <path d="M246 60h86l18 63H234Z" fill="#e8cf9d"/>
+    <rect x="435" y="20" width="94" height="230" rx="26" fill="#ffffff" stroke="#2f6f73" stroke-width="13"/>
+    <path d="M482-16v58" stroke="#5d655f" stroke-width="16" stroke-linecap="round"/>
+    <path d="M436 64h92" stroke="#5d655f" stroke-width="16" stroke-linecap="round"/>
+  </g>
+</svg>
