@@ -334,12 +334,24 @@ p {
     url("natural-butter.jpg") center/cover;
 }
 
-.butter-hero-copy {
+.oil-hero {
+  min-height: 560px;
+  display: grid;
+  align-items: end;
+  padding: clamp(82px, 12vw, 136px) clamp(18px, 5vw, 72px) clamp(48px, 7vw, 84px);
+  background:
+    linear-gradient(90deg, rgba(16, 25, 17, 0.86), rgba(16, 25, 17, 0.48), rgba(16, 25, 17, 0.18)),
+    url("plant-oil.jpg") center/cover;
+}
+
+.butter-hero-copy,
+.oil-hero-copy {
   width: min(760px, 100%);
   color: var(--white);
 }
 
-.butter-hero h1 {
+.butter-hero h1,
+.oil-hero h1 {
   margin: 0;
   font-family: "Playfair Display", Georgia, serif;
   font-size: clamp(3rem, 8vw, 6.6rem);
@@ -347,24 +359,28 @@ p {
   letter-spacing: 0;
 }
 
-.butter-hero p:not(.eyebrow) {
+.butter-hero p:not(.eyebrow),
+.oil-hero p:not(.eyebrow) {
   max-width: 680px;
   color: rgba(255, 255, 255, 0.86);
   font-size: clamp(1rem, 2vw, 1.25rem);
 }
 
-.butter-section {
+.butter-section,
+.oil-section {
   background: var(--paper);
 }
 
-.butter-grid {
+.butter-grid,
+.oil-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 18px;
   align-items: stretch;
 }
 
-.butter-card {
+.butter-card,
+.oil-card {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -376,7 +392,8 @@ p {
   transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
 }
 
-.butter-card::after {
+.butter-card::after,
+.oil-card::after {
   content: "";
   position: absolute;
   inset: 0;
@@ -386,13 +403,15 @@ p {
   transition: opacity 180ms ease;
 }
 
-.butter-card img {
+.butter-card img,
+.oil-card img {
   height: 300px;
   object-fit: cover;
   transition: transform 220ms ease, filter 220ms ease;
 }
 
-.butter-card div {
+.butter-card div,
+.oil-card div {
   position: relative;
   z-index: 1;
   display: flex;
@@ -401,35 +420,44 @@ p {
   padding: 22px;
 }
 
-.butter-card h3 {
+.butter-card h3,
+.oil-card h3 {
   font-size: 1.28rem;
 }
 
-.butter-card p {
+.butter-card p,
+.oil-card p {
   flex: 1;
   margin-bottom: 0;
 }
 
-.butter-action {
+.butter-action,
+.oil-action {
   align-self: flex-start;
   margin: 20px 0 0;
   text-decoration: none;
 }
 
 .butter-card:hover,
-.butter-card:focus-within {
+.butter-card:focus-within,
+.oil-card:hover,
+.oil-card:focus-within {
   border-color: rgba(214, 160, 55, 0.65);
   box-shadow: 0 24px 58px rgba(23, 33, 27, 0.2);
   transform: translateY(-8px);
 }
 
 .butter-card:hover::after,
-.butter-card:focus-within::after {
+.butter-card:focus-within::after,
+.oil-card:hover::after,
+.oil-card:focus-within::after {
   opacity: 1;
 }
 
 .butter-card:hover img,
-.butter-card:focus-within img {
+.butter-card:focus-within img,
+.oil-card:hover img,
+.oil-card:focus-within img {
   filter: saturate(1.08) contrast(1.04);
   transform: scale(1.055);
 }
@@ -625,7 +653,8 @@ address a {
   .intro,
   .order-section,
   .contact-grid,
-  .butter-grid {
+  .butter-grid,
+  .oil-grid {
     grid-template-columns: 1fr;
   }
 
@@ -637,7 +666,8 @@ address a {
     min-height: 760px;
   }
 
-  .butter-hero {
+  .butter-hero,
+  .oil-hero {
     min-height: 620px;
   }
 
@@ -662,11 +692,13 @@ address a {
     justify-content: center;
   }
 
-  .butter-card img {
+  .butter-card img,
+  .oil-card img {
     height: 260px;
   }
 
-  .butter-action {
+  .butter-action,
+  .oil-action {
     width: 100%;
     justify-content: center;
   }
