@@ -258,7 +258,9 @@ p {
 }
 
 .product-image-butter {
-  object-position: center 52%;
+  object-fit: contain;
+  object-position: center center;
+  background: #2f2618;
 }
 
 .product-image-oil {
