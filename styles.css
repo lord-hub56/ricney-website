@@ -257,6 +257,10 @@ p {
   transition: transform 220ms ease, filter 220ms ease;
 }
 
+.product-image-butter {
+  object-position: center 52%;
+}
+
 .product-image-oil {
   object-position: center 58%;
 }
