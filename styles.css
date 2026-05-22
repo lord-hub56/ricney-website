@@ -413,7 +413,7 @@ p {
 .oil-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 18px;
+  gap: 22px;
   align-items: stretch;
 }
 
@@ -428,6 +428,12 @@ p {
   border-radius: 8px;
   box-shadow: var(--shadow);
   transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+}
+
+.oil-card {
+  background:
+    linear-gradient(180deg, rgba(238, 240, 229, 0.44), rgba(255, 255, 255, 0) 42%),
+    var(--white);
 }
 
 .butter-card::after,
@@ -448,6 +454,18 @@ p {
   transition: transform 220ms ease, filter 220ms ease;
 }
 
+.oil-card-image-coconut {
+  object-position: center center;
+}
+
+.oil-card-image-moringa {
+  object-position: center 42%;
+}
+
+.oil-card-image-palm {
+  object-position: center center;
+}
+
 .butter-card div,
 .oil-card div {
   position: relative;
@@ -461,6 +479,14 @@ p {
 .butter-card h3,
 .oil-card h3 {
   font-size: 1.28rem;
+  padding-bottom: 8px;
+}
+
+.oil-card h3 {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  border-bottom: 3px solid rgba(214, 160, 55, 0.72);
 }
 
 .butter-card p,
@@ -474,6 +500,16 @@ p {
   align-self: flex-start;
   margin: 20px 0 0;
   text-decoration: none;
+}
+
+.oil-action {
+  margin-top: 24px;
+  background: var(--aqua);
+}
+
+.oil-action:hover,
+.oil-action:focus-visible {
+  background: var(--leaf);
 }
 
 .butter-card:hover,
