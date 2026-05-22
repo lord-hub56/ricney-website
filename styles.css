@@ -361,27 +361,77 @@ p {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 18px;
+  align-items: stretch;
 }
 
 .butter-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
   overflow: hidden;
   background: var(--white);
   border: 1px solid rgba(23, 33, 27, 0.1);
   border-radius: 8px;
   box-shadow: var(--shadow);
+  transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+}
+
+.butter-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(180deg, rgba(214, 160, 55, 0), rgba(214, 160, 55, 0.14));
+  opacity: 0;
+  transition: opacity 180ms ease;
 }
 
 .butter-card img {
-  height: 320px;
+  height: 300px;
   object-fit: cover;
+  transition: transform 220ms ease, filter 220ms ease;
 }
 
 .butter-card div {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
   padding: 22px;
 }
 
+.butter-card h3 {
+  font-size: 1.28rem;
+}
+
 .butter-card p {
+  flex: 1;
   margin-bottom: 0;
+}
+
+.butter-action {
+  align-self: flex-start;
+  margin: 20px 0 0;
+  text-decoration: none;
+}
+
+.butter-card:hover,
+.butter-card:focus-within {
+  border-color: rgba(214, 160, 55, 0.65);
+  box-shadow: 0 24px 58px rgba(23, 33, 27, 0.2);
+  transform: translateY(-8px);
+}
+
+.butter-card:hover::after,
+.butter-card:focus-within::after {
+  opacity: 1;
+}
+
+.butter-card:hover img,
+.butter-card:focus-within img {
+  filter: saturate(1.08) contrast(1.04);
+  transform: scale(1.055);
 }
 
 .contact-hero {
@@ -614,5 +664,10 @@ address a {
 
   .butter-card img {
     height: 260px;
+  }
+
+  .butter-action {
+    width: 100%;
+    justify-content: center;
   }
 }
