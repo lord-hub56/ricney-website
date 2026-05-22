@@ -241,6 +241,12 @@ p {
   transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
 }
 
+.product-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
 .product-card::after {
   content: "";
   position: absolute;
@@ -302,8 +308,80 @@ p {
   margin-bottom: 22px;
 }
 
+.card-action {
+  display: inline-flex;
+  align-items: center;
+  min-height: 42px;
+  margin: 0 20px 22px;
+  padding: 10px 14px;
+  color: var(--white);
+  background: var(--leaf);
+  border-radius: 6px;
+  font-weight: 800;
+}
+
 .import-band {
   background: var(--soft);
+}
+
+.butter-hero {
+  min-height: 560px;
+  display: grid;
+  align-items: end;
+  padding: clamp(82px, 12vw, 136px) clamp(18px, 5vw, 72px) clamp(48px, 7vw, 84px);
+  background:
+    linear-gradient(90deg, rgba(16, 25, 17, 0.86), rgba(16, 25, 17, 0.48), rgba(16, 25, 17, 0.18)),
+    url("natural-butter.jpg") center/cover;
+}
+
+.butter-hero-copy {
+  width: min(760px, 100%);
+  color: var(--white);
+}
+
+.butter-hero h1 {
+  margin: 0;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: clamp(3rem, 8vw, 6.6rem);
+  line-height: 0.96;
+  letter-spacing: 0;
+}
+
+.butter-hero p:not(.eyebrow) {
+  max-width: 680px;
+  color: rgba(255, 255, 255, 0.86);
+  font-size: clamp(1rem, 2vw, 1.25rem);
+}
+
+.butter-section {
+  background: var(--paper);
+}
+
+.butter-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.butter-card {
+  overflow: hidden;
+  background: var(--white);
+  border: 1px solid rgba(23, 33, 27, 0.1);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
+
+.butter-card img {
+  height: 320px;
+  object-fit: cover;
+}
+
+.butter-card div {
+  padding: 22px;
+}
+
+.butter-card p {
+  margin-bottom: 0;
 }
 
 .contact-hero {
@@ -496,7 +574,8 @@ address a {
 
   .intro,
   .order-section,
-  .contact-grid {
+  .contact-grid,
+  .butter-grid {
     grid-template-columns: 1fr;
   }
 
@@ -506,6 +585,10 @@ address a {
 
   .hero {
     min-height: 760px;
+  }
+
+  .butter-hero {
+    min-height: 620px;
   }
 
 }
@@ -522,5 +605,14 @@ address a {
 
   .product-card img {
     height: 220px;
+  }
+
+  .card-action {
+    width: calc(100% - 40px);
+    justify-content: center;
+  }
+
+  .butter-card img {
+    height: 260px;
   }
 }
