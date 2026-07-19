@@ -1,5 +1,5 @@
 const orderForm = document.querySelector("#orderForm");
-const businessEmail = "info@ricneyglobaltrade.com";
+const businessEmail = "info@ricneytrading.com";
 
 orderForm.addEventListener("submit", (event) => {
   event.preventDefault();
